@@ -15,12 +15,12 @@
 // console.log(currentYear++)
 // console.log(currentYear)
 
-// for(let i=0;i<20; i++) {
-//     for( let j=0; j<10; j++){
-//         document.write ("*")
-//     }
-//     document.write("<br>" )
-// }
+for(let i=0;i<20; i++) {
+    for( let j=0; j<10; j++){
+        document.write ("*")
+    }
+    document.write("<br>" )
+}
 
 // var animals=["Catc","Dogs"]
 // // animals.push("Cats");
