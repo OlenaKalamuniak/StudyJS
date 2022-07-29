@@ -25,10 +25,11 @@ function users(name,age){
 
 task3
 
-function changeToUpperCase(){
-    let arr = ['hi', 'olena'].toString('')
-    return arr.toUpperCase()
-
+function changeToUpperCase(array){ 
+    const result = array.map((el) => el.toUpperCase())
+return result
 }
-console.log(changeToUpperCase())
+console.log(changeToUpperCase(['hi', 'olena']))
+
+
 

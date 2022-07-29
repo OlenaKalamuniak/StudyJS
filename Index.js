@@ -671,3 +671,64 @@
 
 // }
 // console.log(changeToUpperCase())
+//  function showLetters(word){
+//     word.forEach(element => {
+//         const letter = element.split('')
+//         console.log(letter)
+//  });  
+// };
+
+//  showLetters(['Sofia'])
+
+// function showLastLetter(letter){
+//    return letter[(letter.length-2)]
+// }
+// console.log(showLastLetter('sofia'))
+
+// function showLastLetter(letter){
+//    return letter.slice()
+// }
+// console.log(showLastLetter('sofa'))
+
+// const person = {
+//     name1: 'Sofia',
+//     age: 20,
+// }
+// console.log(person.name1)
+
+// function users(user){
+//     name,age
+// }
+// console.log("sofia", 20)
+// console.log('Roma', 21)
+
+// function returnNotEvenNumber(num){
+
+//   return num.filter((number) => number % 2 !== 0)
+
+//  }
+
+// console.log (returnNotEvenNumber([1,2,3,4,5,6]))
+
+// const word = 'arra'
+
+// console.log(word == word.split('').reverse().join('') )
+
+
+// function changeToUpperCase(){
+//     let arr = ['hi', 'olena'].toString('')
+//     return arr.toUpperCase()
+
+// }
+// console.log(changeToUpperCase())
+
+// const result1 = array.map((el) => el.toUpperCase())
+// return result
+
+// console.log(changeToUpperCase(['gfhvkjvn', 'dfbnm']))
+// console.log(changeToUpperCase(['love', 'france']))
+
+// const arr1 = ['hi', 'olena']
+// const result = arr1.map((el) => el.toUpperCase())
+
+// console.log(result)
