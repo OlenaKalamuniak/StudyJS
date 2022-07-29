@@ -463,3 +463,211 @@
 // let n = 11
 // x += n
 // x= x+n
+// function sumAll(...all){
+//     let result = 0
+//     for (let num of all){
+//         result +=num
+//     }
+//     return result
+
+// } const res = sumAll(1,3,5,3,9)
+// console.log(res())
+
+// let name1 = '1';
+// console.log(+name1)
+// let inf = prompt()
+// console.log(typeof inf)
+// if(typeof inf ===  'number'){
+//     alert('number')
+// } else {
+//     alert (typeof '' )
+// }
+
+// let cars = [ 'porshe', 'honda', 'audi']
+// for(let car1 = 0; car1 < cars.length; car1++){
+//     console.log(cars[car1])
+// }
+// let arr = [['a','b','c',],['q','w','e',]]
+// for(let el of arr){
+//     for( let j of el){
+//         console.log(j)
+//     }
+   
+// }
+// let sum = []
+// let results
+// do {
+//    results = parseInt(prompt())
+//    console.log(results)
+//    if(!isNaN(results)) {
+//    sum.push(results)
+   
+// } else{
+//     const initialValue = 0;
+// const sumWithInitial = sum.reduce(
+//   (previousValue, currentValue) => previousValue + currentValue,
+//   initialValue
+// );
+//     alert('this is sum ' + sumWithInitial)
+// }
+// } while (!isNaN(results))
+
+// let arr = [1,2,3,4,5];
+// let result = arr.reduce((prev,curr) =>{
+//  return prev + curr
+// },0)
+
+// console.log(result)
+
+// let arr = ['a', 'b', 'c']
+// let result = arr.reduce((prev, curr) => {
+//     return prev + curr
+
+// }, '')
+// console.log(result)
+
+// let num = [ 1, 2, 3, 4, 5]
+
+// function reverseNumber(num){
+//     let str = String(num).split('')
+//     return str
+// }
+// console.log('12345')
+
+// let arr = [1,4,66,4,3]
+// let result = arr.reduce((prev,curr) =>{
+//     return prev + curr
+// }
+// )
+// console.log(result)
+
+
+// function sumTo(n){
+//     let sum = 0
+//     for(let i = 1; i<=n; i++){
+//         sum+= i;
+//     }
+//     return sum
+// }
+// alert (sumTo(200))
+// function sumTo(n){
+//     return n * (n + 1)/2
+
+// } alert(sumTo(100))
+
+// showMessage()
+// function showMessage(){
+//     alert('hi')
+// }
+// let showMessage = function(){
+
+// }
+// let showMessage = () => {
+
+
+// }
+
+
+// function sortNumbers(arr){
+
+//     return arr.sort (function(a, b) {
+//         return a - b;
+//     });
+// } console.log(sortNumbers([1,2,3,7,53,9,5,3]))
+
+// function showString(str) {
+//     return str.split('').reverse().splice(0,1)
+// } console.log(showString('hello'))
+// let user = {
+// name :
+// age :
+// } user.name
+
+// let user1 = new Object(  {
+
+// })
+
+// Object.assign
+// Object.keys()
+// let user = {
+//     name: 'Roma',
+//     f () {
+//         return this.name
+//     }
+// } 
+// console.log(user.f())
+
+// function bild (name,age){
+//     return {
+//         name,
+//         age,
+//     }
+// }
+// console.log(bild("roma",'2'))
+
+
+// let task1
+// let returnEvenNumber = () => {
+//     let arr = [1,2,3,4,5,6]
+//     let theEven = arr.filter(number => number % 2 ==0)
+//     console.log ('Even nubers ' + theEven)
+// }
+
+// returnEvenNumber()
+
+// let task2
+
+// let strorage = []
+//  function UserInfo(name,age) { 
+//     this.name = name;
+//     this.age = age;
+     
+// }
+
+
+
+//  let inf = Object.assign(user,strorage)
+
+//  console.log( new UserInfo('Olena',20))
+//  console.log(new UserInfo =('Roman',21))
+//  console.log( new UserInfo =('Sofia',20))
+
+
+// 2
+// const arr = [];
+
+// function users(name,age){
+//         let userInfo = {
+//             name,
+//             age,
+//         }
+//     arr.push(userInfo)
+//     }
+//   users('roman', 21)
+//   users('olena', 20)
+//   console.log(arr)
+
+
+
+
+
+// let task3
+
+// function changeToUpperCase(founder) {
+//     return founder.toUpperCase();
+//   }
+  
+
+//  const result = changeToUpperCase("hi olena");
+  
+
+//  console.log(result);
+
+// 3
+
+// function changeToUpperCase(){
+//     let arr = ['hi', 'olena'].toString('')
+//     return arr.toUpperCase()
+
+// }
+// console.log(changeToUpperCase())
