@@ -732,3 +732,343 @@
 // const result = arr1.map((el) => el.toUpperCase())
 
 // console.log(result)
+
+// function Accumulator(startingValue){
+//     this.value = startingValue
+    
+//     this.read = function(){
+//         this.value+= +prompt('how',0)
+//     };
+
+//     // this.sum = function(){
+//     //     return this.read + this.value
+//     // }
+// }
+// let accumulator = new Accumulator(1)
+// accumulator.read();
+// accumulator.read();
+// accumulator.read();
+// accumulator.read();
+// alert(accumulator.value);
+
+// const human = new Object()
+// human.name ="Olena";
+// human.surname = "K"
+// console.log(`Name: ${human.name}`)
+
+// human.occup = new Object()
+// human.occup.possition = "wb"
+// console.log("possition : " + human.occup.possition);
+
+// human.show = function() {
+//     document.write("<p> Name: " + human.name);
+
+// }
+// human.show()
+
+// const obj = {
+//     kol : 20,
+//     ol:100,
+//     rom:13,
+// }
+
+// console.log(obj.kol)
+
+// const obj ={
+//     name:'Olena',
+// }
+// const newKey = 'passportId'
+// const newValue = 33333
+// obj[newKey] = newValue;
+// console.log(obj)
+ 
+// const obj = {
+//     age: 33
+// }
+// const obj2 ={
+//     age: 40
+// }
+// const resultAge = {}
+
+// for( let key in obj){
+// if(obj2[key]){
+//     resultAge[key] = obj[key] + obj2[key]
+// }
+// }
+// console.log(resultAge)
+
+// const firstS ={
+//     name:'V',
+//     age : 10
+// }
+// const secondS = {
+//     name: 'Ol',
+//     age: 11
+// }
+// const thirdS ={
+//     name:'s',
+//     age:9
+// }
+// const allS =[firstS,secondS]
+// console.log(allS)
+
+// allS.push(thirdS)
+// console.log(allS)
+
+// allS.pop()
+// console.log(allS)
+
+// const maleS = [ firstS]
+// const femaleS = [secondS,thirdS]
+
+// const allStud =[...maleS, ...femaleS]
+// console.log(allStud)
+// const allStudents = [
+//     {name: 'petya', grade: 4},
+//     {name: 'vasya', grade: 5},
+//     {name: 'misha', grade: 6},
+// ]
+
+// const names = allStudents.map(st => st.name)
+// const grades = allStudents.map(st => st.grade)
+
+// const res = {
+//     students: names,
+//     studentGrades: grades
+// }
+
+// console.log(res)
+
+// const arr =[1,2]
+// const b = arr.concat(3,4)
+// console.log(b)
+// console.log(arr)
+// const arr = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+// arr.reverse().join(' * ')
+
+// const quest = +prompt('index?')
+// arr.splice(quest,1)
+// console.log(arr)
+
+
+// function showMe(){ 
+// const str = 'var_text_hello'
+
+// return str.split('_').join(' ').toUpperCase()
+// }
+// console.log(showMe())
+
+// function getN(num){
+//     const dayOfWeek = ['Monday','Thursday','Wednesday']
+//     if(num<1 || num> 5)return
+//     return dayOfWeek[num-1]
+// }
+// console.log(getN(2))
+
+// const num = []
+// for(let i = 0; i < 11; i++ ){
+//     num.push(i)
+//     console.log("element:",i)
+// };
+// // num.push(i)
+// console.log("Array:",num)
+
+// const arr = new Array(10)
+// arr[0]=1
+// arr[1]=2
+// arr[2]=3
+// arr[3]=4
+// arr[4]=5
+// arr[5]=6
+// arr[6]=7
+// arr[7]=8
+// arr[8]=9
+// arr[9]=10
+
+// console.log(arr)
+
+// function whatTheArr(arr){ 
+// if(arr % 2 == 0){
+//     return `The arr is even ${arr} `
+// } else {
+//     return ` <div> Not even arr ${arr}`
+// }
+// }
+// console.log(whatTheArr(arr[4]))
+
+// let num = +prompt('write num')
+// let a;
+// let ggg;
+// function show () {
+//     if(num < 1){
+//         return  a = "!"
+//     } else{
+//         return ggg = "!!"
+//     }
+
+// }
+// console.log(show(num))
+// console.log(ggg)
+
+// function sum(a,b){
+//     return a+b
+// }
+// function mul(a,b){
+//     return a * b
+// }
+// const op1 = parseInt(prompt('write n'))
+// sing = prompt('sing')
+// op2 = parseInt(prompt('write n2'))
+// let result;
+//  switch(sing){
+//     case '+':
+//         result= sum(op1,op2);
+//         break;
+//     case '*':
+//         result= mul(op1,op2);
+//         break;
+//     default:
+//         console.log('it`s a mistake')
+//  }
+//  if( result != undefined)
+//  document.write(result)
+
+// let anonym1 = function(){
+//     return 3
+// }
+// let anonym2 = function(){
+//     return 4
+// }
+// function ggg(anonym1,anonym2){
+//  return anonym1 + anonym2
+// }
+// console.log(ggg(3,4))
+
+// const myName = (name) => {
+//     return ` I am Olena`
+// }
+// const myAge = (age) =>{
+//     return `I am 20`
+// }
+// function showText(callback){
+//     // const a = text === 'Hello' ? 'Olena' : '20'
+//     document.write(callback() + "<br>" )
+// }
+// showText(myName )
+// showText(myAge )
+
+// const arr = [ 1,2,3,5,-1,3,-4,80,50]
+// const chan = arr.filter((v)=> v > 0)
+// console.log(chan)
+
+// function filterBy (arr,type ) {
+//     return arr.filter((el) => typeof el !== type )
+// }
+// console.log(filterBy(['hello', 'world', 23, '23', null], 'string'))
+
+// function Human (name,age){
+//     this.name = name;
+//     this.age = age;
+// }
+// const arr = [];
+// arr.push(new Human ('Olena', 20))
+// arr.push(new Human ('Roman', 30))
+// arr.push(new Human ('Sofa', 2))
+
+// const resut = arr.sort((a,b) => a.age - b.age)
+
+// console.log(resut)
+
+// const obj ={
+//     name: 'dog'
+// }
+// obj.legs= 5;
+// // console.log(obj)
+
+// obj.sayN = function(){
+// return `This animal is ${this.name} !`
+// }
+// console.log(obj.sayN())
+
+// const cat = {
+// name: 'M',
+// sounds:'mmmmmmyr',
+// age: 1
+// }
+// const dog = {
+//     name:'Rex',
+//     sounds:'haw',
+//     age:2
+// }
+
+// const horse = {
+//     name:'Grace',
+//     sounds:'iho-ho',
+//     age:3
+// }
+// const speak = function (){
+    
+//  console.log(`${horse.sounds} Hi! I am ${horse.name} !`);
+// }
+// speak()
+
+
+// ???? +
+
+// const speak = function (){
+    
+//     console.log(`${this.sounds} Hi! I am ${this.name} !`);
+//    }
+
+// const horse = {
+//     name:'Grace',
+//     sounds:'iho-ho',
+//     age:3,
+//     speak,
+// }
+// horse.speak()
+
+// const newName = new String('Olena')
+
+// function sayHi(str){
+//     console.log(str + ' hi ' + typeof str )
+// } 
+//   sayHi(newName) 
+
+// function Rec (w,h){
+//     this.width=w;
+//     this.height = h;
+// }
+// Rec.prototype.getA= function(){
+//     return this.width * this.height
+// }
+// const rect = new Rec(100,50)
+// console.log(rect.getA())
+
+class Human {
+    constructor(name,age){
+    this.name = name;
+    this.age= age;
+}
+sayHi(){
+    return this.name + this.age
+}
+}
+const olena = new Human ('Olena', 21)
+
+class Develp extends Human{
+    constructor (name, age, lang){
+        super(name,age);
+        this.lang= lang
+    
+    }
+}
+const rom = new Develp('roman', 21,'js')
+console.log(rom)
+console.log(rom.sayHi())
+
+Human.prototype.goForWalk = function(){
+    return `Hi! Go for a walk ${this.name}`
+}
+console.log(olena.goForWalk())
+console.log(olena.sayHi())
